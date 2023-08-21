@@ -34,7 +34,7 @@ body {
 
 (Abaixo = Atalho)
   */
-  background: var(--bg-url) top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
 }
 
 body * {
@@ -43,7 +43,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px auto;
   padding: 0 24px;
 }
